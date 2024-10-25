@@ -28,6 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here]()
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -47,13 +48,25 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+    /* page style */
+    body {
+      position: relative;
+      background-color: hsl(212, 45%, 89%); 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      }
+    /*  QRcode card style */
+    .attribution {
+    position: absolute; 
+    width: 320px; 
+    height: 499px; 
+    padding: 16px 16px 40px 16px; 
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 20px;}
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
